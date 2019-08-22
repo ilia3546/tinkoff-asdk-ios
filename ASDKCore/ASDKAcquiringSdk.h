@@ -52,7 +52,8 @@
 
 @property (nonatomic, readwrite) BOOL debug;
 @property (nonatomic, readwrite) BOOL testDomain;
-
+@property (nonatomic, strong) NSString *terminalKey;
+@property (nonatomic, strong) NSString *password;
 @property (nonatomic, weak) id<ASDKAcquiringSdkLoggerDelegate> logger;
 
 - (NSString *)domainPath;

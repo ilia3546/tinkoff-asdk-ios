@@ -38,8 +38,6 @@
 
 @property (nonatomic, strong) ASDKAcquiringApi *acquiringApi;
 @property (nonatomic, strong) NSString *payType;
-@property (nonatomic, strong) NSString *terminalKey;
-@property (nonatomic, strong) NSString *password;
 @property (nonatomic, strong) id<ASDKAcquiringSdkPublicKeyDataSource> publicKeyDataSource;
 
 @end
